@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Spanish — Per-Track Summary</title>
+<style>
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px; line-height: 1.45; color: #1f2328;
+  background: #fafafa; padding: 1.1rem;
+}
+.wrap { max-width: 1180px; margin: 0 auto; }
+header { margin-bottom: 1rem; }
+h1 { font-size: 1.65rem; margin: 0 0 .15rem; color: #0b3d91; }
+.lead { color: #555; margin: 0 0 .6rem; }
+.toc {
+  background: #fff; border: 1px solid #e1e4e8; border-radius: 6px;
+  padding: .55rem .75rem; font-size: 12px; color: #444;
+}
+.toc strong { color: #0b3d91; margin-right: .35rem; }
+.toc span {
+  display: inline-block; min-width: 1.65rem; text-align: center;
+  margin: 1px; padding: 1px 5px; background: #f1f5f9;
+  border-radius: 3px; font-variant-numeric: tabular-nums;
+}
+.toc span.skip { color: #c33; background: #fbeaea; text-decoration: line-through; }
+table {
+  width: 100%; border-collapse: collapse; margin: .35rem 0 .55rem;
+  background: #fff; font-size: 13px;
+}
+th, td {
+  border: 1px solid #e1e4e8; padding: 4px 7px; vertical-align: top; text-align: left;
+}
+th { background: #f6f8fa; font-weight: 600; color: #1f2328; }
+tr:nth-child(even) td { background: #fbfcfe; }
+.es { font-weight: 600; color: #0b3d91; }
+.en { color: #777; font-style: italic; }
+small.tracks {
+  display: block; color: #888; font-size: 11.5px; margin-top: -.2rem; margin-bottom: .55rem;
+}
+small.tracks::before { content: "tracks: "; color: #aaa; }
+@media print {
+  body { background: #fff; padding: .4rem; }
+  .card, table, section { break-inside: avoid; }
+}
+
+.grid { display: grid; gap: .55rem; grid-template-columns: 1fr; }
+@media (min-width: 760px) { .grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 1100px) { .grid { grid-template-columns: 1fr 1fr 1fr; } }
+.card {
+  background: #fff; border: 1px solid #e1e4e8; border-radius: 6px;
+  padding: .5rem .7rem .6rem;
+}
+.card h3 {
+  margin: 0 0 .3rem; font-size: 13.5px; color: #0b3d91;
+  border-bottom: 1px solid #eee; padding-bottom: .18rem;
+  font-weight: 600;
+}
+.card .num { color: #999; font-weight: 500; margin-right: .25rem; }
+.card ul { margin: .15rem 0 .35rem; padding-left: 1rem; font-size: 12.5px; }
+.card li { margin-bottom: .12rem; }
+.card .ex { font-size: 12.5px; margin-top: .2rem; line-height: 1.35; }
+.card .ex .es { display: inline; }
+.card .ex .en { display: inline; margin-left: .35rem; font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Spanish Grammar — Per-Track Summary</h1>
+  <p class="lead">Compact summary of each of the 89 audio tracks
+  (Track 25 is absent in the source). Bold text is Spanish; italic gray text is the English gloss.</p>
+  <div class="toc"><strong>Tracks:</strong><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span class="skip">25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span>31</span><span>32</span><span>33</span><span>34</span><span>35</span><span>36</span><span>37</span><span>38</span><span>39</span><span>40</span><span>41</span><span>42</span><span>43</span><span>44</span><span>45</span><span>46</span><span>47</span><span>48</span><span>49</span><span>50</span><span>51</span><span>52</span><span>53</span><span>54</span><span>55</span><span>56</span><span>57</span><span>58</span><span>59</span><span>60</span><span>61</span><span>62</span><span>63</span><span>64</span><span>65</span><span>66</span><span>67</span><span>68</span><span>69</span><span>70</span><span>71</span><span>72</span><span>73</span><span>74</span><span>75</span><span>76</span><span>77</span><span>78</span><span>79</span><span>80</span><span>81</span><span>82</span><span>83</span><span>84</span><span>85</span><span>86</span><span>87</span><span>88</span><span>89</span><span>90</span></div>
+</header>
+<main class="grid">
+    <div class="card">
+      <h3><span class="num"> 1.</span>Course intro</h3>
+      <ul>
+        <li>Welcome and how the Thinking Method works.</li>
+        <li>Don't memorize: think, build, and pause to answer aloud.</li>
+        <li>Pause whenever the teacher asks the student a question.</li>
+      </ul>
+
+    </div>
+    <div class="card">
+      <h3><span class="num"> 2.</span>Latin cognates and es</h3>
+      <ul>
+        <li>English &amp; Spanish share huge Latin vocab; convert, don't memorize.</li>
+        <li>Words ending in -al often match (normal → normal); stress moves to last syllable.</li>
+        <li>Spanish vowels a/e/i/o/u each have one pure sound.</li>
+        <li>es = it/he/she/(formal-you) is; negate with no es...</li>
+      </ul>
+      <div class="ex"><span class="es">Es natural.</span><span class="en">— It is natural.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num"> 3.</span>-ante, -mente, -ible/-able</h3>
+      <ul>
+        <li>English -ant/-ent + e → -ante (important → importante).</li>
+        <li>English -ly → -mente (legally → legalmente; normalmente often = usually).</li>
+        <li>-ible/-able look the same; stress the second-to-last syllable (posible).</li>
+        <li>g before e/i is a /x/ sound (general, gente).</li>
+      </ul>
+      <div class="ex"><span class="es">Normalmente es importante.</span><span class="en">— Normally it is important.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num"> 4.</span>quiero, -ción, -ar verbs</h3>
+      <ul>
+        <li>quiero = I want; te quiero is everyday 'I love you'.</li>
+        <li>English -tion → -ción, always stressed on the ó (preparación).</li>
+        <li>Drop -ción and add -ar to get the verb (preparación → preparar).</li>
+        <li>-ence/-ance → -encia/-ancia (experiencia).</li>
+      </ul>
+      <div class="ex"><span class="es">Quiero cooperar.</span><span class="en">— I want to cooperate.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num"> 5.</span>yo, attached -te/-lo</h3>
+      <ul>
+        <li>yo only for emphasis: yo no quiero, not no yo quiero.</li>
+        <li>Pronouns can attach to the infinitive: obligar → obligarte.</li>
+        <li>lo = it/him/(formal you) — cancelarlo, salvarlo.</li>
+        <li>pero = but (single r) ≠ perro = dog (rolled rr).</li>
+      </ul>
+      <div class="ex"><span class="es">No quiero provocarte.</span><span class="en">— I don't want to provoke you.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num"> 6.</span>intento, h, voy a</h3>
+      <ul>
+        <li>intento + infinitive = I try to ...</li>
+        <li>h is always silent (hospital, ahora, horrible).</li>
+        <li>voy = I go; v sounds like a soft b.</li>
+        <li>voy a + infinitive = going to ... (near-future).</li>
+      </ul>
+      <div class="ex"><span class="es">Quiero cancelarlo pero no quiero cancelarlo ahora.</span><span class="en">— I want to cancel it, but I don't want to cancel it now.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num"> 7.</span>voy a, mostrar, motion + a</h3>
+      <ul>
+        <li>Motion verbs link to next infinitive with a: voy a verlos, voy a pasar a visitarte.</li>
+        <li>ver does not get extra a: quiero verlos.</li>
+        <li>demostrar drops de- → mostrar = to show; algo = something.</li>
+        <li>lo/la for formal-you depending on region/gender.</li>
+      </ul>
+      <div class="ex"><span class="es">Voy a pasar a visitarte.</span><span class="en">— I'm going to drop by to visit you.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num"> 8.</span>la, quiere, debo</h3>
+      <ul>
+        <li>la = feminine it/her (Quiero verla); gender lives on the noun.</li>
+        <li>quiere = he/she/(formal you) wants; questions by intonation only.</li>
+        <li>debo + infinitive = I must / I owe (to do).</li>
+        <li>tú vs usted is highly regional; observe and adapt.</li>
+      </ul>
+      <div class="ex"><span class="es">¿Por qué no quiere venir a visitarme?</span><span class="en">— Why doesn't he/she want to come visit me?</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num"> 9.</span>saber, si, explicar</h3>
+      <ul>
+        <li>saber = to know (a fact); sé = I know.</li>
+        <li>sí = yes; si = if (no accent).</li>
+        <li>Build long sentences in blocks: Quiero saber por qué...</li>
+        <li>explicar (not 'explanar'); explicación is the noun.</li>
+      </ul>
+      <div class="ex"><span class="es">Pero quiero explicarte algo.</span><span class="en">— But I want to explain something to you.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">10.</span>Yo form, tener, infinitives</h3>
+      <ul>
+        <li>Infinitives end in -ar/-er/-ir; Spanish 'to ...' ends in -r.</li>
+        <li>yo form: drop -r and add -o (intentar → intento).</li>
+        <li>Stress is penultimate (intento, hablo, vivo).</li>
+        <li>English -tain → Spanish -tener (obtain → obtener, maintain → mantener).</li>
+        <li>tengo (irregular -go yo form) = I have; vengo = I come.</li>
+      </ul>
+      <div class="ex"><span class="es">Como con Pablo mañana.</span><span class="en">— I'm eating with Pablo tomorrow.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">11.</span>-ar vs -er/-ir endings</h3>
+      <ul>
+        <li>-ar uses 'a' as the key vowel (habla, hablan); -er/-ir use 'e' (vende, venden).</li>
+        <li>Person markers: -o = I, -s = tú, -n = they/ustedes; nothing = he/she/usted.</li>
+        <li>Object pronouns: lo quiero ver OR quiero verlo (both fine).</li>
+        <li>-ión and -idad nouns are usually feminine (la opinión, la diversidad).</li>
+      </ul>
+      <div class="ex"><span class="es">No hablan con Pablo.</span><span class="en">— They don't talk with Pablo.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">12.</span>vender, plurals, me lo</h3>
+      <ul>
+        <li>las casas: feminine plural article matches the noun.</li>
+        <li>Indirect object before direct object: me lo venden = they sell it to me.</li>
+        <li>Most -idad nouns trace to -ity (generosidad, oportunidad, sinceridad).</li>
+        <li>la persona is feminine for any human.</li>
+      </ul>
+      <div class="ex"><span class="es">¿Por qué no me lo venden?</span><span class="en">— Why don't they sell it to me?</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">13.</span>hacer, poder, esperar</h3>
+      <ul>
+        <li>hacer = to do/make; haces, hace; ¿Qué haces? = what are you doing?</li>
+        <li>poder is a stem-changer: puedo, puede, pueden, puedes.</li>
+        <li>Always return to the infinitive before conjugating.</li>
+        <li>-ary → -ario (necessary → necesario).</li>
+      </ul>
+      <div class="ex"><span class="es">¿Qué haces?</span><span class="en">— What are you doing?</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">14.</span>sé, tengo que, -pose</h3>
+      <ul>
+        <li>saber → sé (irregular yo form).</li>
+        <li>tengo que + infinitive = I have to ...</li>
+        <li>English -pose → Spanish -poner (componer, suponer, exponer, oponer).</li>
+        <li>pongo = I put (irregular -go yo).</li>
+      </ul>
+      <div class="ex"><span class="es">Tengo que hacerlo.</span><span class="en">— I have to do it.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">15.</span>qué pasa, e→ie split</h3>
+      <ul>
+        <li>pasar = happen / go on; ¿Qué pasa?</li>
+        <li>Stressed e in many roots splits to ie (tener→tiene, querer→quiere, venir→viene, pensar→pienso, perder→pierdo, entender→entiendo).</li>
+        <li>comprender does NOT split (comprendo).</li>
+        <li>Modal recap: puedo, voy a, tengo que, debo, quiero + infinitive.</li>
+      </ul>
+      <div class="ex"><span class="es">Quiero saber qué pasa.</span><span class="en">— I want to know what's going on.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">16.</span>e→ie / o→ue stem changes</h3>
+      <ul>
+        <li>Stressed o in many roots splits to ue (dormir→duermo, mostrar→muestro, encontrar→encuentro, poder→puedo).</li>
+        <li>Always anchor on the infinitive — don't guess by vowel harmony (empezar→empieza).</li>
+        <li>me duermo = I fall asleep (reflexive).</li>
+        <li>Cognate hooks: tiempo↔tempo, puerto↔port, escuela↔school, cuerpo↔corp.</li>
+      </ul>
+      <div class="ex"><span class="es">Me duermo.</span><span class="en">— I fall asleep.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">17.</span>Splits, nosotros -amos, tomar</h3>
+      <ul>
+        <li>Nosotros form -amos has its own stressed -a-, so the stem usually does NOT split (encontramos, pensamos).</li>
+        <li>pensar + infinitive = plan to ...</li>
+        <li>tomar = to take or to drink; many Arabic al- loans (alcohol, azúcar, arroz).</li>
+        <li>Spanish never doubles ss (pasión, posible).</li>
+      </ul>
+      <div class="ex"><span class="es">No tomo alcohol.</span><span class="en">— I don't drink alcohol.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">18.</span>-emos vs -imos, vivir</h3>
+      <ul>
+        <li>The only present split between -er and -ir: nosotros = -emos (comemos) vs -imos (vivimos).</li>
+        <li>preferir: prefiero / preferimos.</li>
+        <li>vivir: vivo, vives, vive, vivimos, viven.</li>
+        <li>v is pronounced as a soft b (verano, vive, voy).</li>
+        <li>siempre is movable: siempre perdemos = perdemos siempre.</li>
+      </ul>
+      <div class="ex"><span class="es">Quiero saber dónde viven.</span><span class="en">— I want to know where they live.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">19.</span>vamos, ir, tener que</h3>
+      <ul>
+        <li>ir present: voy, vas, va, vamos, van; infinitive ir.</li>
+        <li>Vamos = let's go (colloquial).</li>
+        <li>tener que + infinitive = have to ... (Tengo que ir esta noche).</li>
+        <li>esta noche = tonight; y = and; h is silent (alcohol, ahora).</li>
+      </ul>
+      <div class="ex"><span class="es">Tengo que ir esta noche.</span><span class="en">— I have to go tonight.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">20.</span>Present-as-future, ver, ir a</h3>
+      <ul>
+        <li>Present + future-time word (mañana, esta noche, pronto, la semana que viene) carries future meaning.</li>
+        <li>ver: veo, ves, ve, vemos, ven.</li>
+        <li>ir a + infinitive = going to ... (Vamos a verla).</li>
+        <li>Object pronouns attach to the verb you choose: nos vas a ver = vas a vernos.</li>
+      </ul>
+      <div class="ex"><span class="es">Nos vemos la semana que viene.</span><span class="en">— We'll see each other next week.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">21.</span>haber + -ado (perfect)</h3>
+      <ul>
+        <li>Periphrastic perfect uses haber: he, has, ha, hemos, han.</li>
+        <li>For -ar verbs the participle is -ado (hablado, anticipado, tomado).</li>
+        <li>Aux + participle is one unit: hemos hablado.</li>
+        <li>Object pronoun goes BEFORE haber: lo hemos anticipado.</li>
+        <li>por mucho tiempo = for a long time.</li>
+      </ul>
+      <div class="ex"><span class="es">Lo hemos anticipado por mucho tiempo.</span><span class="en">— We have anticipated it for a long time.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">22.</span>-ido participle, tú/te</h3>
+      <ul>
+        <li>For -er and -ir verbs the participle is -ido (vendido, venido, perdido).</li>
+        <li>Clitic stays before the conjugated haber: lo he terminado.</li>
+        <li>tú = subject 'you'; te = object/reflexive 'you'.</li>
+        <li>Stressed subject pronouns: yo, tú, él/ella/usted, nosotros/as, ellos/as, ustedes.</li>
+      </ul>
+      <div class="ex"><span class="es">Lo he terminado.</span><span class="en">— I have finished it.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">23.</span>haber recap, -ma nouns, get lost</h3>
+      <ul>
+        <li>haber present: he, has, ha, hemos, han.</li>
+        <li>Greek -ma nouns are masculine despite the -a (el problema, el sistema, el programa, el clima, el panorama).</li>
+        <li>Reflexive perfect: me he perdido = I got lost.</li>
+        <li>Te has perdido = you got lost (informal).</li>
+      </ul>
+      <div class="ex"><span class="es">¿Has entendido el sistema?</span><span class="en">— Have you understood the system?</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">24.</span>dar, me lo, ustedes</h3>
+      <ul>
+        <li>dar present: doy, das, da, damos, dan.</li>
+        <li>Indirect + direct order: me lo dan = they give it to me.</li>
+        <li>Te lo doy mañana = I'll give it to you tomorrow.</li>
+        <li>ustedes = you-plural; -es is the plural after a consonant.</li>
+      </ul>
+      <div class="ex"><span class="es">Te lo doy mañana.</span><span class="en">— I'll give it to you tomorrow.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">26.</span>quedar(se), llamar(se)</h3>
+      <ul>
+        <li>quedar(se) = to stay; me quedo, te quedas, se queda.</li>
+        <li>Compound: voy a quedarme; tengo que quedarme; nos hemos quedado.</li>
+        <li>llamar(se) = to be called: ¿Cómo te llamas?</li>
+        <li>Reflexive pronoun attaches to infinitive in writing (quedarme).</li>
+      </ul>
+      <div class="ex"><span class="es">¿Cómo te llamas?</span><span class="en">— What's your name? (lit. how do you call yourself)</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">27.</span>Adjective after noun</h3>
+      <ul>
+        <li>Descriptive adjectives normally follow the noun: cámara digital.</li>
+        <li>Many words for car: coche, carro, auto, máquina (gender follows the chosen word).</li>
+        <li>English -ive → Spanish -ivo (positivo, intensivo, adictivo).</li>
+        <li>Plural agreement: las casas grandes, los autos grandes.</li>
+      </ul>
+      <div class="ex"><span class="es">Quiero comprar una cámara digital.</span><span class="en">— I want to buy a digital camera.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">28.</span>ser, agreement, plurals</h3>
+      <ul>
+        <li>es / son with adjectives describe identity: el carro es caro; los carros son caros.</li>
+        <li>Adjectives agree in gender and number (cara, caros, caras).</li>
+        <li>Profession nouns inflect: profesor / profesora / profesores / profesoras.</li>
+        <li>Spanish doesn't double consonants (passion → pasión).</li>
+      </ul>
+      <div class="ex"><span class="es">Los carros son caros.</span><span class="en">— The cars are expensive.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">29.</span>ser vs estar</h3>
+      <ul>
+        <li>ser for característico (traits); estar for estado (state).</li>
+        <li>estar present: estoy, estás, está, estamos, están — note end-stress.</li>
+        <li>estar with feelings/conditions: estoy cansado/a.</li>
+        <li>Only four -oy yo forms exist: voy, doy, soy, estoy.</li>
+      </ul>
+      <div class="ex"><span class="es">Estoy cansada.</span><span class="en">— I am tired.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">30.</span>estar in greetings/location</h3>
+      <ul>
+        <li>Greetings, feelings, location → estar: ¿Cómo estás? ¿Dónde estamos?</li>
+        <li>estar aquí = to be here; voy a estar aquí más tarde.</li>
+        <li>porque = because (one word, no accent).</li>
+        <li>tener que + estar = have to be (somewhere).</li>
+      </ul>
+      <div class="ex"><span class="es">No vamos a quedarnos porque estamos muy cansados.</span><span class="en">— We're not going to stay because we're very tired.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">31.</span>ser fully; e- before s-clusters</h3>
+      <ul>
+        <li>ser present: soy, eres, es, somos, son.</li>
+        <li>¿Cómo es? = what's he/she like?  ¿Cómo está? = how is he/she?</li>
+        <li>English s + consonant gets a leading e- in Spanish (student → estudiante, special → especial, scheme → esquema).</li>
+        <li>Es posible / el ser humano use ser.</li>
+      </ul>
+      <div class="ex"><span class="es">¿Cómo es?</span><span class="en">— What is he/she like?</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">32.</span>aburrido, de origin, occupied</h3>
+      <ul>
+        <li>aburrido: ser → boring; estar → bored.</li>
+        <li>Origin uses ser: ¿De dónde eres? — for current location use estar.</li>
+        <li>libre, casado, ocupado, preocupado: ser or estar with shifting nuance.</li>
+        <li>Safe rephrasing: soy una persona ocupada (ser + persona).</li>
+      </ul>
+      <div class="ex"><span class="es">¿De dónde eres?</span><span class="en">— Where are you from?</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">33.</span>listo, tan, bueno, feliz</h3>
+      <ul>
+        <li>listo: estar = ready; ser = smart.</li>
+        <li>tan + adjective = so ... (estoy tan cansado).</li>
+        <li>bueno: ser = good (capable); está bueno = good-looking / tasty (dialect).</li>
+        <li>When unsure, fall back on soy una persona feliz.</li>
+      </ul>
+      <div class="ex"><span class="es">Estoy tan aburrida.</span><span class="en">— I am so bored.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">34.</span>Present progressive (right now)</h3>
+      <ul>
+        <li>estar + gerund only for what's happening THIS moment.</li>
+        <li>-ar → -ando; -er/-ir → -iendo (vendiendo).</li>
+        <li>Don't use it for future; lo preparo mañana, not estoy preparando.</li>
+        <li>Clitics: lo estoy preparando OR estoy preparándolo.</li>
+        <li>des- + ayunar = desayunar (break-fast → breakfast).</li>
+      </ul>
+      <div class="ex"><span class="es">Estoy hablando.</span><span class="en">— I am speaking (right now).</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">35.</span>siendo, salir, ahora</h3>
+      <ul>
+        <li>A trait verb still uses estar + gerund for now: estoy siendo sincero.</li>
+        <li>salir: yo salgo (-go form); future events use simple present (salgo mañana).</li>
+        <li>estoy saliendo = leaving right now.</li>
+        <li>Avoid -ing overuse — Spanish uses present widely.</li>
+      </ul>
+      <div class="ex"><span class="es">Estamos siendo honestos.</span><span class="en">— We are being honest.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">36.</span>Synthetic future tense</h3>
+      <ul>
+        <li>Take the FULL infinitive and add -é, -ás, -á, -emos, -án (haber endings minus h-).</li>
+        <li>Endings carry the stress: comeré, prepararé, iré.</li>
+        <li>Same single set for -ar, -er, -ir; ir is regular here.</li>
+        <li>Present and ir + a + inf still cover most future meaning in speech.</li>
+      </ul>
+      <div class="ex"><span class="es">Lo encontraré.</span><span class="en">— I will find it.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">37.</span>Indirect-object pronouns, dar</h3>
+      <ul>
+        <li>IO + DO order: ¿Me lo darán?</li>
+        <li>le/les for 'to him/her/them/(formal you)' — not lo/la in this slot.</li>
+        <li>le hace un favor (to her), not la hace un favor.</li>
+        <li>Realize an idea = darse cuenta (not realizar, which means carry out).</li>
+      </ul>
+      <div class="ex"><span class="es">Nos lo darán.</span><span class="en">— They will give it to us.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">38.</span>se reflexive, quedarse, quererse</h3>
+      <ul>
+        <li>se = himself/herself/themselves (and reciprocal each other).</li>
+        <li>quedarse: me quedo, te quedas, se queda; nos quedamos.</li>
+        <li>Querer + infinitive + clitic: quiero quedarme, quieren quedarse.</li>
+        <li>Reflexive pronoun is part of the infinitive in writing (quedarse, llamarse).</li>
+      </ul>
+      <div class="ex"><span class="es">Ella se queda.</span><span class="en">— She stays.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">39.</span>Stressed pronouns after preps</h3>
+      <ul>
+        <li>After con, para, de use stressed pronouns: con él, para ella, de nosotros.</li>
+        <li>Special forms: para mí, de ti, para ti.</li>
+        <li>le for indirect favor recipient (le hace un favor), not la.</li>
+        <li>le before main verb or after infinitive: le quiero decir / quiero decirle.</li>
+        <li>Spanish often drops English 'to/for': les compro = I buy for them.</li>
+      </ul>
+      <div class="ex"><span class="es">Está con ustedes.</span><span class="en">— It is with you (all).</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">40.</span>Verb-specific prepositions</h3>
+      <ul>
+        <li>enamorarse de = fall in love with (Me enamoro de ti).</li>
+        <li>pensar EN (not 'about'): pienso en ti.</li>
+        <li>soñar CON = dream about (sueño con ella); o→ue split.</li>
+        <li>conmigo / contigo replace con + mí / con + ti.</li>
+        <li>depender de + clause: depende de si quiere ir.</li>
+      </ul>
+      <div class="ex"><span class="es">Sueño con ella.</span><span class="en">— I dream about her.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">41.</span>Conditional (-ía); passive se</h3>
+      <ul>
+        <li>Conditional = full infinitive + -ía / -ías / -ía / -íamos / -ían (stress on í).</li>
+        <li>yo and él/ella share the same form: bailaría.</li>
+        <li>se + verb = gets / becomes / passive idea (se contamina = it gets polluted).</li>
+        <li>me imagino que / me imaginaría que...</li>
+      </ul>
+      <div class="ex"><span class="es">Se contaminaría.</span><span class="en">— It would get contaminated.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">42.</span>gustar, podría, polite asks</h3>
+      <ul>
+        <li>gustar = to be pleasing: me gusta = I like it; me gustan for plural things.</li>
+        <li>me gustaría = I would like (polite want).</li>
+        <li>poder loses an e in future/conditional: podría (not 'podería').</li>
+        <li>¿Podrías venir a mi casa? for polite invitations.</li>
+        <li>Decir + clitic: ¿Me podrías decir algo? / ¿Podrías decirme algo?</li>
+      </ul>
+      <div class="ex"><span class="es">Me gustaría verte.</span><span class="en">— I would like to see you.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">43.</span>habría, debería + infinitive</h3>
+      <ul>
+        <li>habría + participle = would have ... (habría ido, habríamos comido).</li>
+        <li>me habría gustado = I would have liked.</li>
+        <li>debería + infinitive = should ... (deberíamos hablar).</li>
+        <li>Spanish keeps the full infinitive after deber (no English bare verb shortcut).</li>
+      </ul>
+      <div class="ex"><span class="es">Habríamos podido ir.</span><span class="en">— We could have gone.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">44.</span>Greek -ma; este/ese; mano</h3>
+      <ul>
+        <li>Many -ma loans are masculine: el problema, el sistema, el paradigma, el esquema, el planeta.</li>
+        <li>Loans in s-cluster get e-: scheme → esquema, sphere → esfera.</li>
+        <li>este/esta = this; ese/esa = that; plurals estos/estas/esos/esas.</li>
+        <li>True feminine -o nouns: la mano, la foto (foto-grafía), la moto.</li>
+      </ul>
+      <div class="ex"><span class="es">No quiero ese auto, porque es muy grande.</span><span class="en">— I don't want that car, because it's very big.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">45.</span>gustar, interesar, parecer, le</h3>
+      <ul>
+        <li>Gusta vs gustan agree with the THING (singular vs plural).</li>
+        <li>interesar works the same: me interesa / me interesan.</li>
+        <li>parecer: me parece (it seems to me); 'que' is usually obligatory.</li>
+        <li>Add salt/etc. to it = ponerle: quiero ponerle sal.</li>
+        <li>English -pose → Spanish poner family (componer, suponer, oponer).</li>
+      </ul>
+      <div class="ex"><span class="es">Le gusta.</span><span class="en">— She likes it.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">46.</span>Three pasts; -aba imperfect</h3>
+      <ul>
+        <li>Three past systems: haber + participle; line past (imperfect); point past (preterite).</li>
+        <li>Participle is invariable after haber.</li>
+        <li>habría + participle = would have ...</li>
+        <li>Imperfect of -ar: drop -ar, add -aba/-abas/-aba/-ábamos/-aban (hablaba).</li>
+      </ul>
+      <div class="ex"><span class="es">Intentaban encontrármelo.</span><span class="en">— They were trying to find it for me.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">47.</span>Cenar, se passive, demonstratives</h3>
+      <ul>
+        <li>cenar = to dine; cenaba = was dining / used to dine.</li>
+        <li>Subject pronouns add stress (él/ella/usted) — ambiguous imperfect needs them.</li>
+        <li>Things 'getting burnt/broken' use se: la cena se quemaba.</li>
+        <li>Demonstratives: este/estos vs ese/esos (drop the t for 'that').</li>
+      </ul>
+      <div class="ex"><span class="es">La cena se quemaba.</span><span class="en">— The dinner was burning.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">48.</span>Imperfect -ía; impersonal se</h3>
+      <ul>
+        <li>-er/-ir imperfect: drop ending, add -ía/-ías/-ía/-íamos/-ían (comía, vendía).</li>
+        <li>Mirrors conditional in form but built on stem (comía vs comería).</li>
+        <li>Passive/impersonal se: Se vende; ¿Cómo se dice?</li>
+        <li>Se habla español = Spanish is spoken.</li>
+      </ul>
+      <div class="ex"><span class="es">¿Cómo se dice?</span><span class="en">— How do you say it?</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">49.</span>Imperfect irregulars; 'was going to'</h3>
+      <ul>
+        <li>English -tain → tener: obtener, mantener, sostener.</li>
+        <li>tenía que + inf = had to (Tenía que verte ayer).</li>
+        <li>Three irregular imperfects: ser → era; ir → iba; ver → veía.</li>
+        <li>iba a + infinitive = was going to ...</li>
+      </ul>
+      <div class="ex"><span class="es">Tenía que verte ayer.</span><span class="en">— I had to see you yesterday.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">50.</span>para vs por (intro)</h3>
+      <ul>
+        <li>para = for (recipient/purpose): Este es para ti.</li>
+        <li>por = because of, by, through, in exchange for: por esta razón.</li>
+        <li>Lo compro para ti vs lo compro por ti = for you vs because of you.</li>
+        <li>Duration uses por: por tres días.</li>
+      </ul>
+      <div class="ex"><span class="es">Lo compro por ti.</span><span class="en">— I'm buying it because of you.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">51.</span>para/por with verbs and time</h3>
+      <ul>
+        <li>Estoy para ti vs Estoy por ti = available for you vs because of you.</li>
+        <li>Cambiar este por ese = exchange this for that.</li>
+        <li>gracias por + infinitive (not -ando): gracias por venir.</li>
+        <li>Estar cansado de + inf; false friends: discutir = to argue, actual = current.</li>
+      </ul>
+      <div class="ex"><span class="es">Gracias por venir.</span><span class="en">— Thanks for coming.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">52.</span>para = in order to; -ing adjectives</h3>
+      <ul>
+        <li>para + infinitive = in order to ... (Estoy aquí para verte).</li>
+        <li>Imperfect and estar + gerund are often interchangeable for 'was -ing'.</li>
+        <li>General truths use plain infinitive: Bailar es saludable.</li>
+        <li>English -ing adjective → -ante / -iente (interesante, viviente).</li>
+      </ul>
+      <div class="ex"><span class="es">Estoy tomando un curso de español.</span><span class="en">— I'm taking a Spanish course.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">53.</span>Pluperfect; podía</h3>
+      <ul>
+        <li>podía = could / was able (line past).</li>
+        <li>había + participle = had ... (Ya había comido).</li>
+        <li>Conditional perfect: habría perdido = I would have lost.</li>
+        <li>Disambiguate yo vs él with subject pronoun when forms coincide.</li>
+      </ul>
+      <div class="ex"><span class="es">Ya había comido.</span><span class="en">— I had already eaten.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">54.</span>-ado/-ido as adjectives</h3>
+      <ul>
+        <li>After haber: one invariable participle.</li>
+        <li>As adjective with estar: agrees in gender/number (Está cerrada).</li>
+        <li>ser + adjective vs estar + adjective gives different meaning (es cerrada = closed-off person; está cerrada = is closed).</li>
+        <li>Irregular participles: roto, muerto, abierto, dicho, hecho, vuelto, escrito, visto, puesto.</li>
+      </ul>
+      <div class="ex"><span class="es">La silla está mojada.</span><span class="en">— The chair is wet.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">55.</span>should/could have; participles</h3>
+      <ul>
+        <li>debería / podría haber + participle = should / could have ...</li>
+        <li>Clitic placement: lo debería haber cancelado = debería haberlo cancelado.</li>
+        <li>Más irregular participles: roto, muerto, abierto, dicho, hecho.</li>
+        <li>está muerto (state, even though irreversible).</li>
+      </ul>
+      <div class="ex"><span class="es">Debería haberlo hecho.</span><span class="en">— I should have done it.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">56.</span>No stranded prepositions; relatives</h3>
+      <ul>
+        <li>Spanish never strands prepositions: ¿De dónde eres? ¿A dónde vas?</li>
+        <li>Country names sometimes drop the article (Vamos a Estados Unidos).</li>
+        <li>Relative que: la chica con que trabajaba; alternatives con la cual / con quien.</li>
+        <li>cuál(es) = which (one); quién(es) = who (after preposition).</li>
+      </ul>
+      <div class="ex"><span class="es">No sé con quién tengo que hacerlo.</span><span class="en">— I don't know who I have to do it with.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">57.</span>lo + adjective, lo de</h3>
+      <ul>
+        <li>Only present split -er vs -ir is in nosotros: comemos vs vivimos.</li>
+        <li>lo + adjective = the X thing (lo interesante, lo difícil).</li>
+        <li>así = like that / this way (No vivimos así).</li>
+        <li>lo de + noun = the matter of (lo de la fiesta).</li>
+      </ul>
+      <div class="ex"><span class="es">Lo interesante es que viven juntos.</span><span class="en">— The interesting thing is that they live together.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">58.</span>Preterite -ar</h3>
+      <ul>
+        <li>-ar preterite: -é / -aste / -ó / -amos / -aron (hablé, habló).</li>
+        <li>Stress on the ending in I/he forms (note the accents).</li>
+        <li>Passive se in past: Se envió ayer.</li>
+        <li>todavía = still / yet (No te lo envié todavía).</li>
+      </ul>
+      <div class="ex"><span class="es">Se envió ayer.</span><span class="en">— It was sent yesterday.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">59.</span>Preterite -er/-ir; nada/nadie</h3>
+      <ul>
+        <li>-er/-ir preterite: -í / -iste / -ió / -imos / -ieron (comí, salí).</li>
+        <li>que as 'than' with subject pronouns: Comí más que él.</li>
+        <li>ver irregular: vi, viste, vio, vimos, vieron (no accents on vi/vio).</li>
+        <li>Double negation is normal: nadie vio nada.</li>
+        <li>durante = during; sin + infinitive (sin parar).</li>
+      </ul>
+      <div class="ex"><span class="es">Nadie vio nada.</span><span class="en">— Nobody saw anything.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">60.</span>Nosotros ambiguity</h3>
+      <ul>
+        <li>-ar verbs: hablamos = present OR preterite (context decides).</li>
+        <li>-ir verbs: vivimos, salimos identical in present and preterite.</li>
+        <li>-er verbs differ: comemos (present) vs comimos (past).</li>
+        <li>Add a time word or paired clause to disambiguate.</li>
+      </ul>
+      <div class="ex"><span class="es">Cuando hablamos, comprendí todo.</span><span class="en">— When we talked, I understood everything.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">61.</span>Imperfect + preterite together</h3>
+      <ul>
+        <li>Background ongoing (imperfect) + one-off event (preterite): cocinaba cuando sonó el teléfono.</li>
+        <li>por = by (a medium): hablaba por teléfono.</li>
+        <li>Reflexive preterite: me quedé, se quedó, nos quedamos.</li>
+        <li>gustar past forms: me gustó (event) vs me gustaba (ongoing).</li>
+        <li>parecer the same: me pareció vs me parecía.</li>
+      </ul>
+      <div class="ex"><span class="es">Cocinaba cuando sonó el teléfono.</span><span class="en">— I was cooking when the phone rang.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">62.</span>dar preterite; le → se</h3>
+      <ul>
+        <li>dar preterite is irregular -er/-ir style: di, diste, dio, dimos, dieron.</li>
+        <li>le + lo/la → se lo / se la (to avoid 'le lo'): Se lo di.</li>
+        <li>Disambiguate se with a + él/ella/usted: Se lo vendí a ella.</li>
+        <li>para usually doesn't repeat the IO clitic (Lo compré para ti).</li>
+      </ul>
+      <div class="ex"><span class="es">Se lo di a él.</span><span class="en">— I gave it to him.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">63.</span>acordarse; gustar with le</h3>
+      <ul>
+        <li>acordarse de = to remember: me acuerdo, no me acuerdo, no nos acordamos.</li>
+        <li>Subordinate si in past: no me acuerdo si se lo di.</li>
+        <li>Clarify le with a + person: Le gusta a ella.</li>
+        <li>Past form: le gustó.</li>
+      </ul>
+      <div class="ex"><span class="es">No nos acordamos si se lo dimos a él o a ellas.</span><span class="en">— We don't remember if we gave it to him or to them.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">64.</span>hace = ago; preterite persons</h3>
+      <ul>
+        <li>hace + time = X time ago: lo vi hace dos semanas.</li>
+        <li>Preterite tú: -aste (-ar) / -iste (-er/-ir).</li>
+        <li>Yes/no questions keep word order; ¿? wraps the line.</li>
+        <li>anoche = last night; esta noche = tonight (don't confuse).</li>
+        <li>ellos: -aron (-ar) / -ieron (-er/-ir).</li>
+      </ul>
+      <div class="ex"><span class="es">Lo vi hace dos semanas.</span><span class="en">— I saw him two weeks ago.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">65.</span>más nada/nadie; vez; possessives</h3>
+      <ul>
+        <li>más + nada/nadie = anything/anyone else (no comí nada más).</li>
+        <li>vez (f.): una vez = once; otra vez = again; a la vez = at the same time.</li>
+        <li>Possessives agree with the THING owned: mi/mis, tu/tus, su/sus, nuestro/a/os/as.</li>
+        <li>su can mean his/her/its/your(formal)/their — context decides.</li>
+        <li>mi propia casa, mis propios ojos.</li>
+      </ul>
+      <div class="ex"><span class="es">No encontré nada más en tu casa.</span><span class="en">— I didn't find anything else at your house.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">66.</span>doler; possession with de</h3>
+      <ul>
+        <li>doler works like gustar: me duele la pierna (NOT mi pierna duele).</li>
+        <li>Headache: tengo dolor de cabeza; line past tenía dolor de cabeza.</li>
+        <li>Possession via de: la casa de José, la fiesta de María.</li>
+        <li>no ... con nadie más = with nobody else.</li>
+      </ul>
+      <div class="ex"><span class="es">Me duele la pierna.</span><span class="en">— My leg hurts.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">67.</span>Stress and written accents</h3>
+      <ul>
+        <li>Default stress: vowel/n/s ending → penultimate; other consonants (incl. r) → last syllable.</li>
+        <li>Write the accent only when stress breaks the rule: tradición, encontró, vivió.</li>
+        <li>Distinguish minimal pairs: sí/si, mí/mi, tú/tu, sé/se, dónde/donde, cómo/como.</li>
+        <li>All question words carry the accent; estar present (estás, está) has accents.</li>
+      </ul>
+      <div class="ex"><span class="es">Encontró el libro.</span><span class="en">— He found the book.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">68.</span>este/esto; tan ... que</h3>
+      <ul>
+        <li>Demonstratives agree: este, esta, estos, estas, ese, esa, esos, esas.</li>
+        <li>Neuter esto/eso/aquello = this/that THING (abstract idea).</li>
+        <li>tan + adjective + que = so ... that: estábamos tan cansados que dormimos todo el día.</li>
+        <li>el día is masculine.</li>
+      </ul>
+      <div class="ex"><span class="es">Estábamos tan cansados que dormimos todo el día.</span><span class="en">— We were so tired that we slept all day.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">69.</span>Subjunctive forms (intro)</h3>
+      <ul>
+        <li>The 'mood tense' swaps the typical vowel: -ar verbs use -e endings; -er/-ir use -a endings.</li>
+        <li>From the yo-form stem: hablo → hable, como → coma, vivo → viva.</li>
+        <li>After volition + que, subjunctive is OBLIGATORY: quiero que esperes.</li>
+        <li>Make the second subject explicit with a pronoun if needed: ¿quieres que yo te espere?</li>
+      </ul>
+      <div class="ex"><span class="es">Quiero que esperes.</span><span class="en">— I want you to wait.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">70.</span>lo que; necesito que; hace falta</h3>
+      <ul>
+        <li>lo que = what / that which (no quiero que hables sobre lo que hablamos).</li>
+        <li>necesito que + subjunctive (necesito que usted lo prepare).</li>
+        <li>hace falta que + subjunctive = it's necessary that ...</li>
+        <li>preferir que + subjunctive (Prefiero que se quede).</li>
+      </ul>
+      <div class="ex"><span class="es">Hace falta que comamos pronto.</span><span class="en">— We need to eat soon.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">71.</span>esperar, ver, personal a</h3>
+      <ul>
+        <li>contar con = count on: quiero que cuentes conmigo.</li>
+        <li>ver subjunctive from veo-stem: vea, veas, vean.</li>
+        <li>Personal a before specific human direct objects: espero que vean a María.</li>
+        <li>a + el = al; me gusta que + subjunctive.</li>
+      </ul>
+      <div class="ex"><span class="es">Espero que vean a María.</span><span class="en">— I hope they see María.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">72.</span>Commands and clitic placement</h3>
+      <ul>
+        <li>Negative commands of all persons use the subjunctive: no hables, no se lo des.</li>
+        <li>Affirmative usted/ustedes use subjunctive too: coma, coman, espérenlo.</li>
+        <li>Affirmative tú: drop the -s of present tú (compras → compra).</li>
+        <li>Affirmative imperatives: clitics ATTACH (espérenme, dímelo) — add accent to keep stress.</li>
+        <li>Negative imperatives: clitics PRECEDE (no me lo digas).</li>
+      </ul>
+      <div class="ex"><span class="es">Espérenme.</span><span class="en">— Wait for me (all of you).</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">73.</span>que + subjunctive; cuando + future</h3>
+      <ul>
+        <li>Jussive que + subjunctive: que espere, que termine ya = let him/her ...</li>
+        <li>cuando + indicative for habitual; cuando + subjunctive for FUTURE event.</li>
+        <li>ir subjunctive: vaya, vayas, vayamos, vayan.</li>
+        <li>esperemos / no esperemos = let's (not) wait.</li>
+      </ul>
+      <div class="ex"><span class="es">La vemos cuando vayamos.</span><span class="en">— We'll see her when we go.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">74.</span>para que; volver; e→i split</h3>
+      <ul>
+        <li>elegir: elijo, eliges (e → i in some -ir verbs).</li>
+        <li>para + infinitive (purpose, same subject) vs para que + subjunctive (different subject).</li>
+        <li>Reflexive vs causative: no quiero que se rompa vs no quiero que lo rompa.</li>
+        <li>volver (o→ue): vuelvo, vuelves, vuelve.</li>
+      </ul>
+      <div class="ex"><span class="es">Lo he hecho para que vuelvas.</span><span class="en">— I've done it so that you come back.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">75.</span>Indefinite + subjunctive</h3>
+      <ul>
+        <li>Informal tú command of hacer is haz; hazlo.</li>
+        <li>donde quieras = wherever you want; como quieras = however you want.</li>
+        <li>lo que prefieras = whatever you prefer (subjunctive after indefinite).</li>
+        <li>ser subjunctive: sea, seas, sea, seamos, sean (sea lo que sea = whatever).</li>
+      </ul>
+      <div class="ex"><span class="es">Hazlo donde quieras.</span><span class="en">— Do it wherever you want.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">76.</span>hay; subjunctive after indefinite</h3>
+      <ul>
+        <li>hay = there is / there are (one form for both).</li>
+        <li>Past: había = there was / there were.</li>
+        <li>After hay alguien que + uncertainty → subjunctive: ¿Hay alguien aquí que hable español?</li>
+        <li>If statement is factual, indicative: hay alguien aquí que habla español.</li>
+      </ul>
+      <div class="ex"><span class="es">¿Hay alguien aquí que hable español?</span><span class="en">— Is there anyone here who speaks Spanish?</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">77.</span>debería haber; es + adj + que</h3>
+      <ul>
+        <li>debería haber + noun = there should be (existence): debería haber algo para comer.</li>
+        <li>es + adjective + que + subjunctive: es terrible que comas esto.</li>
+        <li>es + adjective + si + indicative: es terrible si comes esto.</li>
+        <li>Triggers: es posible/importante/necesario/increíble + que → subjunctive.</li>
+      </ul>
+      <div class="ex"><span class="es">Debería haber algo para comer.</span><span class="en">— There should be something to eat.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">78.</span>seguir, empezar, terminar</h3>
+      <ul>
+        <li>seguir + gerund = keep -ing: sigo hablando.</li>
+        <li>seguir siendo = continue being.</li>
+        <li>empezar a / comenzar a + infinitive = start to ...</li>
+        <li>terminar de + infinitive = finish doing; terminar + gerund = end up -ing.</li>
+        <li>comenzar = empezar; espectacular shows e- before s-cluster.</li>
+      </ul>
+      <div class="ex"><span class="es">Quiero que hablen conmigo cuando terminen de venderlos.</span><span class="en">— I want you all to talk to me when you finish selling them.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">79.</span>dejar, ojalá, es esencial</h3>
+      <ul>
+        <li>quiero decirle que me deje + subjunctive (intended action, not factual report).</li>
+        <li>cuando + subjunctive for future: Cuando te deje el mensaje, llámame.</li>
+        <li>es esencial que + subjunctive (vea, etc.).</li>
+        <li>ojalá + subjunctive = hopefully (Ojalá deje un mensaje).</li>
+      </ul>
+      <div class="ex"><span class="es">Ojalá deje un mensaje.</span><span class="en">— Hopefully he leaves a message.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">80.</span>Unexpected events: se me ...</h3>
+      <ul>
+        <li>Distinguish sé (saber), reflexive se, and 'le lo' → se lo.</li>
+        <li>se + me/te/le/nos/les + verb = something happens 'on me' (se me cierra la puerta).</li>
+        <li>Same with state changes: se me quema la cena; se me quemó.</li>
+        <li>acabar(se): la batería se me acaba = my battery is dying on me.</li>
+      </ul>
+      <div class="ex"><span class="es">La cena se me quema.</span><span class="en">— The dinner is burning on me.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">81.</span>Past subjunctive intro; volver a</h3>
+      <ul>
+        <li>volver a + infinitive = to do something again.</li>
+        <li>Past subjunctive: from ellos preterite (hablaron, comieron) → -ra forms (hablara, comieran, comiéramos).</li>
+        <li>Past triggers + que take past subjunctive: quería que comieran; esperaba que me llamara.</li>
+        <li>Use infinitive instead of subjunctive when subjects match: necesitábamos hablar.</li>
+      </ul>
+      <div class="ex"><span class="es">Volví a llamarte para que organizáramos.</span><span class="en">— I called you back so that we could get organized.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">82.</span>lo + adjective + es que</h3>
+      <ul>
+        <li>es / era + adj + que can take present or past subjunctive depending on time.</li>
+        <li>lo + adjective = the X thing: lo importante, lo increíble.</li>
+        <li>lo + adj + es que + INDICATIVE (avoids subjunctive): lo increíble es que vuelven.</li>
+        <li>Plain es increíble que → subjunctive (vuelvan).</li>
+      </ul>
+      <div class="ex"><span class="es">Lo increíble es que vuelven a hacerlo.</span><span class="en">— The incredible thing is that they do it again.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">83.</span>si counterfactuals; hubiera + part.</h3>
+      <ul>
+        <li>Counterfactual: si + past subjunctive, conditional in main: si pudiera, lo haría.</li>
+        <li>Pluperfect subjunctive uses haber stem hub-: si me lo hubieras contado, habría ido.</li>
+        <li>Past subjunctive also has -se forms (-ase / -iese), same meaning.</li>
+        <li>Que + past subjunctive as nominal: Que lo compraras no es mi problema.</li>
+      </ul>
+      <div class="ex"><span class="es">Si me lo hubieras contado, habría ido.</span><span class="en">— If you had told me, I would have gone.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">84.</span>-go yo forms → -ga subjunctive</h3>
+      <ul>
+        <li>-go yo verbs: tengo, vengo, salgo, pongo, digo, hago, oigo, traigo (extra i).</li>
+        <li>Subjunctive of -go verbs uses -ga across all persons: tenga, vengas, diga.</li>
+        <li>dígame is the polite phone answer.</li>
+        <li>traer family: atraer, extraer, contraer, distraer (English -tract).</li>
+      </ul>
+      <div class="ex"><span class="es">Quiero que vengas.</span><span class="en">— I want you to come.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">85.</span>Imperatives: tú vs usted</h3>
+      <ul>
+        <li>Formal usted commands: subjunctive form (Salga, Póngalo, No lo ponga).</li>
+        <li>Informal tú positive: drop -go (ten, ven, sal, pon, di, haz).</li>
+        <li>ten lo / dí me-lo (dímelo) — clitics attach to positive imperatives.</li>
+        <li>Dime cuando vengas / Dígame cuando lo haga (subjunctive after cuando+future).</li>
+      </ul>
+      <div class="ex"><span class="es">Dime cuando vengas.</span><span class="en">— Tell me when you come.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">86.</span>Future/conditional irregular stems</h3>
+      <ul>
+        <li>Future endings = haber present without h-: -é, -ás, -á, -emos, -án.</li>
+        <li>Conditional uses -ía family stems (me gustaría as anchor).</li>
+        <li>-go verbs contract: tendré/tendría, vendré/vendría, pondré/pondría, saldré/saldría.</li>
+        <li>traer is REGULAR: traeré, atraeré.</li>
+        <li>hacer → haré, decir → diré; poder → podré (not 'poderé').</li>
+      </ul>
+      <div class="ex"><span class="es">Lo haríamos, pero estamos ocupados ahora.</span><span class="en">— We would do it, but we're busy right now.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">87.</span>Imperfect / preterite system review</h3>
+      <ul>
+        <li>Imperfect: -aba (-ar) / -ía (-er/-ir); irregulars only era, iba, veía.</li>
+        <li>Preterite endings: -ar -é/-aste/-ó/-amos/-aron; -er/-ir -í/-iste/-ió/-imos/-ieron.</li>
+        <li>Strong preterites: stem changes + endings without accents (tener → tuv-, estar → estuv-, decir → dij-).</li>
+        <li>When unsure, fall back on imperfect: tenía que ir vs tuve que ir.</li>
+      </ul>
+      <div class="ex"><span class="es">¿Dónde estuviste?</span><span class="en">— Where were you (at that moment)?</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">88.</span>puse, hice, fui, fuera</h3>
+      <ul>
+        <li>More irregular preterite stems: poner → pus-; hacer → hic- (hizo with z); poder → pud-; haber → hub-; venir → vin- (vino).</li>
+        <li>traer → traje, trajeron (i drops); decir → dijeron; ir/ser share fui, fue, fueron.</li>
+        <li>Past subjunctive starts from ellos preterite: si yo fuera tú, si lo tuviera te lo contaría.</li>
+        <li>vino con vino = he came with wine; traje un traje = I brought a suit.</li>
+      </ul>
+      <div class="ex"><span class="es">Si lo tuviera, te lo contaría.</span><span class="en">— If I had it, I would tell you.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">89.</span>demasiado; el agua; un/algún</h3>
+      <ul>
+        <li>demasiado agrees with following noun (demasiadas casas) but stays masc.sg before another adjective (demasiado agresivo).</li>
+        <li>Some feminine -a nouns take el when stress is on first a: el agua, el ala, el aula (adjective still feminine: el agua fría).</li>
+        <li>Before m.sg noun, drop final -o: uno → un, alguno → algún, ninguno → ningún.</li>
+        <li>Method: derive rules from data, not from rote lists.</li>
+      </ul>
+      <div class="ex"><span class="es">Demasiadas casas; demasiado agresivo.</span><span class="en">— Too many houses; too aggressive.</span></div>
+    </div>
+    <div class="card">
+      <h3><span class="num">90.</span>Dialect notes; closing</h3>
+      <ul>
+        <li>leísmo (Spain): le veo for 'I see him' instead of lo veo.</li>
+        <li>vosotros is Spain-only; ustedes covers plural-you elsewhere.</li>
+        <li>Caribbean / coastal accents aspirate or drop final s.</li>
+        <li>voseo (Río de la Plata): vos podés, vos querés (end-stressed forms).</li>
+        <li>You're now hispanohablantes — practice, speak, analyze.</li>
+      </ul>
+      <div class="ex"><span class="es">Ahora somos hispanohablantes y solo tenemos que practicar, hablar y analizar.</span><span class="en">— Now we are Spanish speakers and we just have to practice, speak, and analyze.</span></div>
+    </div>
+</main>
+</div>
+</body>
+</html>
