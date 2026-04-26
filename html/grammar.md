@@ -279,15 +279,15 @@ _References: 42, 45, 61, 63, 66, 70_
 
 ### `por` vs `para`
 
-|                         | por                                           | para                                  |
-|-------------------------|-----------------------------------------------|---------------------------------------|
-| Cause / reason          | by, because of, on behalf of (Lo hago por ti) | —                                     |
-| Recipient / destination | —                                             | for, to (`Es para ti`)                |
-| Purpose / goal          | —                                             | in order to (`Estoy aquí para verte`) |
-| Duration of time        | for / during (`por tres días`)                | deadline (`para el viernes`)          |
-| Means / channel         | by / through (`por teléfono`)                 | —                                     |
-| Exchange                | in exchange for (`cambio este por ese`)       | —                                     |
-| Opinion                 | —                                             | for, in the opinion of (`para mí`)    |
+|                         | por                                             | para                                  |
+|-------------------------|-------------------------------------------------|---------------------------------------|
+| Cause / reason          | by, because of, on behalf of (`lo hago por ti`) | —                                     |
+| Recipient / destination | —                                               | for, to (`Es para ti`)                |
+| Purpose / goal          | —                                               | in order to (`Estoy aquí para verte`) |
+| Duration of time        | for / during (`por tres días`)                  | deadline (`para el viernes`)          |
+| Means / channel         | by / through (`por teléfono`)                   | —                                     |
+| Exchange                | in exchange for (`cambio este por ese`)         | —                                     |
+| Opinion                 | —                                               | for, in the opinion of (`para mí`)    |
 
 _References: 7, 8, 19, 25, 32, 39, 40, 50, 51, 52, 56, 71, 74, 81_
 
